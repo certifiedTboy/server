@@ -7,7 +7,7 @@ const httpServer = http.createServer(app);
 const startServer = async () => {
   await connectDb();
   httpServer.listen(PORT, () => {
-    console.log(`server is live on port: ${PORT}`);
+    console.log(`server is running on port: ${PORT}`);
   });
 };
 
