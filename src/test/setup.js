@@ -47,5 +47,5 @@ global.signin = async () => {
   });
 
   const cookie = response.get("Set-Cookie");
-  return cookie[0].split(";")[0].split("=")[1];
+  return cookie[0]?.split(";")[0]?.split("=")[1];
 };
