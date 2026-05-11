@@ -1,4 +1,4 @@
-name: CI/CD pipeline deployment
+name: CI/CD pipeline dev branch test
 
 on:
   pull_request:
